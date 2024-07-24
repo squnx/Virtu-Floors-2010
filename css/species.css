@@ -1,0 +1,67 @@
+.main_image {
+	width: 561px; height: 575px;
+	float: left;
+	position: relative;
+	overflow: hidden;
+	color: #fff;
+}
+.main_image h2 {
+	font-size: 2em;
+	font-weight: normal;
+	margin: 0 0 5px;
+	padding: 10px;
+}
+.main_image p {
+	font-size: 1.2em;
+	padding: 10px;	margin: 0;
+	line-height: 1.6em;
+}
+.main_image .desc{
+	position: absolute;
+	bottom: 0;	left: 0;
+	width: 100%;
+	display: none;
+}
+.main_image .block{
+	width: 100%;
+	background: #040300;
+	border-top: 1px solid #fff;
+}
+.main_image a.collapse {
+	background: url(images/btn_collapse.gif) no-repeat left top;
+	height: 27px; width: 93px;
+	text-indent: -99999px;
+	position: absolute; 
+	top: -27px; right: 20px; 
+}
+.main_image a.show {background-position: left bottom;} 
+
+
+.image_thumb {
+	float: left;
+	width: 99px;
+	background: #040300;
+}
+.image_thumb img {
+	float: left;
+}
+.image_thumb ul {
+	margin: 0;
+	padding: 8px 0;
+	list-style: none;
+}
+.image_thumb ul li{
+	margin: 0;
+	padding: 0 0 7px 0;
+	width: 79px;
+	float: left;
+}
+.image_thumb ul li.hover {
+	cursor: pointer;
+}
+.image_thumb ul li.active {
+	cursor: default;
+}
+html .image_thumb ul li h2 {display: none;}
+.image_thumb ul li .block {display: none;}	
+.image_thumb ul li p{display: none;}
